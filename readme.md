@@ -1,6 +1,6 @@
 ---
 
-# ChadStock: RL-Based Predictive Trading with Sentiment Risk Management and Backtesting  
+# ChadStock: RL-Powered Trading with Sentiment and Risk Management  
 
 ## Overview  
 
