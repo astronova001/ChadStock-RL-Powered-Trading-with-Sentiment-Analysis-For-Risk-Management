@@ -1,5 +1,3 @@
-Here's the updated README content with the clarified changes for the setup instructions and highlighting the use of React Vite for the frontend:
-
 ---
 
 # Chad Stock - Deep Reinforcement Learning for Stock Trading Backtesting
@@ -85,20 +83,6 @@ This platform uses **ReactJS** with **Vite** for the frontend and **Flask** for 
 You can now use the dashboard for backtesting.
 
 ---
-
-## Contributing
-
-Contributions are welcome! If you'd like to collaborate, improve the platform, or add features, feel free to open an issue or submit a pull request.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-This version includes your setup instructions for React Vite and provides users with a more streamlined guide for starting the project. Let me know if you'd like further refinements!
 
 ## Disclaimers
 
