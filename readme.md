@@ -86,11 +86,7 @@ We would like to thank the open-source community for their valuable contribution
 
 Below are some images showcasing the results and features of the project:
 
-![Dashboard](images/dashboard.png)  
-*Dashboard showing trading insights and performance metrics.*
-
-![Backtesting Results](images/backtesting_results.png)
-*Detailed backtesting results for a selected stock.*
-
-![Settings](images/settings.png)
-*Settings page for configuring trading preferences and risk management.*
+<img src="https://github.com/astronova001/RL-Based-Predictive-Trading-with-Sentiment-Risk-Management-and-Backtesting/blob/main/Results/chd.mp4" width="550" /> 
+<img src="https://github.com/astronova001/Krushak-Agri-Chat-Bot/blob/main/Results/chat.png" width="400" />  
+<img src="https://github.com/astronova001/Krushak-Agri-Chat-Bot/blob/main/Results/gov1.png" width="400" />  
+<img src="https://github.com/astronova001/Krushak-Agri-Chat-Bot/blob/main/Results/gov2.png" width="400" /> 
