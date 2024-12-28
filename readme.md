@@ -9,6 +9,7 @@ ChadStock is a cutting-edge platform that leverages **Reinforcement Learning (RL
 The platform currently supports backtesting with the **PPO (Proximal Policy Optimization)** model and provides tools for customizing parameters like **slippage**, **trade commission**, and **starting amount**. ChadStock is designed to evolve with live trading capabilities, enhanced analytics, and the addition of advanced sentiment-based decision-making. 
 
 <img src="https://github.com/astronova001/RL-Based-Predictive-Trading-with-Sentiment-Risk-Management-and-Backtesting/blob/main/Results/chd.gif" width="550" /> 
+
 ---
 
 ## Current Features
@@ -28,8 +29,6 @@ The platform currently supports backtesting with the **PPO (Proximal Policy Opti
    - The platform displays a comprehensive **trade book**, allowing users to review each trade, including the time of execution and trade quantities. It also tracks the current portfolio value, profit, and trade history.
 
      <img src="https://github.com/astronova001/ChadStock-RL-Powered-Trading-with-Sentiment-Analysis-For-Risk-Management/blob/main/Results/Trade_details.png" width="400" />
-
-
 ---
 
 ## Upcoming Features  
