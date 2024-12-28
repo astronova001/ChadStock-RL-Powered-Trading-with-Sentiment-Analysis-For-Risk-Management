@@ -1,12 +1,12 @@
 ---
 
-# Chad Stock - Deep Reinforcement Learning for Stock Trading Backtesting
+# ChadStock: RL-Based Predictive Trading with Sentiment Risk Management and Backtesting  
 
-## Overview
+## Overview  
 
-Chad Stock is an innovative backtesting and analytics platform designed to evaluate the performance of stock trading strategies using **Deep Reinforcement Learning (DRL)**. The application allows users to backtest stock trading strategies with customizable parameters, giving them the flexibility to adjust various settings such as **slippage, trade commission**, and **starting amount**. Unlike traditional backtesting systems that require predefined strategies, Chad Stock enables users to test models and observe how different parameters affect trading performance in real-time.
+ChadStock is a cutting-edge platform that leverages **Reinforcement Learning (RL)** to develop predictive trading strategies. It integrates **sentiment analysis** for enhanced risk management, enabling traders to preemptively shut down trades during adverse market news, potentially saving significant capital. This feature is particularly useful in mitigating losses during market drawdowns, a period where most algorithms struggle to generate profits.  
 
-This platform uses **ReactJS** with **Vite** for the frontend and **Flask** for the backend, providing a smooth and responsive user experience. The project is designed to be scalable, with plans to introduce additional features such as live trading, paper trading, and workspace configuration for model training.
+The platform currently supports backtesting with the **PPO (Proximal Policy Optimization)** model and provides tools for customizing parameters like **slippage**, **trade commission**, and **starting amount**. ChadStock is designed to evolve with live trading capabilities, enhanced analytics, and the addition of advanced sentiment-based decision-making. 
 
 ---
 
@@ -26,13 +26,31 @@ This platform uses **ReactJS** with **Vite** for the frontend and **Flask** for 
 
 ---
 
-## Upcoming Features
+## Upcoming Features  
 
-- **Live Trades (Paper Trading)**: Simulate real trades with real-time data, without financial risk.
-- **Model Customization and Training**: Configure and train supervised and reinforcement learning models.
-- **Workspace for Model Training**: Experiment with algorithms, train models, and run multiple backtests.
-- **Enhanced Analytics and Visualizations**: Advanced charts and insights for trading strategies.
-- **Additional DRL Models**: Support for **DDPG**, **A2C**, and **DQN** for a comprehensive trading analysis.
+1. **Sentiment Analysis for Risk Management**  
+   - Integrates real-time news and social media sentiment analysis to detect negative trends and preemptively halt trades. This feature aims to minimize losses during market downturns and significant events.  
+
+2. **Live Trading with Sentiment Insights**  
+   - Real-time trade execution with integrated sentiment-driven alerts to adapt to market changes swiftly.  
+
+3. **Expanded DRL Models**  
+   - Addition of **DDPG, A2C, and DQN** to provide a variety of RL-based strategies for enhanced performance in diverse market conditions.  
+
+4. **Workspace for Model Training and Customization**  
+   - A sandbox environment for training and experimenting with custom machine learning models.  
+
+5. **Advanced Backtesting and Visualizations**  
+   - Deeper insights with new metrics, visualizations, and portfolio analytics.  
+---
+
+### Sentiment Analysis: A Game-Changer  
+
+The integration of sentiment analysis distinguishes ChadStock as a forward-thinking trading platform. By combining RL strategies with real-time sentiment data, traders can navigate unpredictable market environments more effectively. This feature supports:  
+
+- **Market Event Detection**: Spotting negative news or sentiment spikes from social media and news platforms.  
+- **Automated Trade Management**: Halting trades during adverse events to protect portfolios.  
+- **Improved Decision-Making**: Leveraging sentiment data as an additional layer of intelligence in trading strategies.  
 
 ---
 
