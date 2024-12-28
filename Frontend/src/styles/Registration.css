@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ... */
+
+
+
+/* Enable focus outline for input fields */
+input:focus {
+    outline: 2px solid #18181b; /* Customize the outline style as needed */
+}
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+.register {
+    display: flex;
+    height: 100vh;
+}
+
+.side1, .side2 {
+    flex: 1;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.side1 {
+    background-color: #18181b;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.quote {
+    font-size: 14px;
+}
+
+.side2 {
+    background-color: #fff;
+    color: #09090b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-button {
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    text-align: center;
+}
+
+.form-container h2 {
+    font-weight: 600;
+}
+
+.form-container p {
+    font-size: 14px;
+    color: #71717a;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #e4e4e7;
+    border-radius: 6px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #18181b;
+    color: #fafafa;
+    cursor: pointer;
+}
+
+.divider {
+    margin: 20px 0;
+    font-size: 12px;
+    color: #71717a;
+}
+
+.auth-options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.auth-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.terms {
+    font-size: 12px;
+    color: #a1a1aa;
+}
+
+.terms a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+/* Existing styles */
+
+.form-container form input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #e4e4e7;
+    border-radius: 6px;
+}

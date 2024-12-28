@@ -1,0 +1,7 @@
+flask
+flask_cors
+lib-pybroker
+sb3_contrib 
+shimmy 
+gym 
+stable_baselines3
