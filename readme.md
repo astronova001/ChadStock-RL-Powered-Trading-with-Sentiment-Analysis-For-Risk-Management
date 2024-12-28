@@ -1,6 +1,6 @@
 ---
 
-# ChadStock: RL-Powered Trading with Sentiment and Risk Management  
+# ChadStock : RL Powered Trading with Sentiment Analysis for Risk Management  
 
 ## Overview  
 
