@@ -1,36 +1,37 @@
 ### Backend
 
-The backend is built using Django, ensuring scalability and robust performance. It handles data processing, model training, and API endpoints for the frontend to interact with.
+The backend is built using Flask, ensuring scalability and robust performance. It handles data processing, model training, and API endpoints for the frontend to interact with. The project will be migrated to Django later.
 
 - **Configuration Files:**
-    - `settings.py`: Django settings for configuring the project.
-    - `urls.py`: URL routing for the Django application.
-    currently it's running on Flask, not on Django (it will be migrated to it later). The steps to run it are simple:
+    - `settings.py`: Django settings for configuring the project (to be used after migration).
+    - `urls.py`: URL routing for the Django application (to be used after migration).
 
-    1. After cloning the repository, navigate to the `frontend` directory and use the following command:
-        ```sh
-        npm i --legacy-peer-deps
-        ```
-    2. Next, run the command:
-        ```sh
-        npm run dev
-        ```
-       As I am using React Vite for the frontend, after that, the link will appear:
-        ```
-        Local: http://localhost:5173/
-        ```
-       Click on it to go to the dashboard.
+The steps to run it are simple:
 
-    3. Now, navigate to the `backend` folder and run:
-        ```sh
-        pip install -r requirements.txt
-        ```
-       to install all required libraries.
+1. After cloning the repository, navigate to the `frontend` directory and use the following command:
+    ```sh
+    npm i --legacy-peer-deps
+    ```
+2. Next, run the command:
+    ```sh
+    npm run dev
+    ```
+   As I am using React Vite for the frontend, after that, the link will appear:
+    ```
+    Local: http://localhost:5173/
+    ```
+   Click on it to go to the dashboard.
 
-    4. Finally, run `api.py` in the `backend` folder. Now you can use the dashboard for backtesting.
+3. Now, navigate to the `backend` folder and run:
+    ```sh
+    pip install -r requirements.txt
+    ```
+   to install all required libraries.
+
+4. Finally, run `api.py` in the `backend` folder. Now you can use the dashboard for backtesting.
 
 - **Dependencies:**
-    - Django and related libraries for backend development.
+    - Flask and related libraries for backend development.
     - REST framework for building APIs.
     - Celery for handling asynchronous tasks.
     - Redis for caching and message brokering.
@@ -85,7 +86,7 @@ We would like to thank the open-source community for their valuable contribution
 
 Below are some images showcasing the results and features of the project:
 
-![Dashboard](images/dashboard.png)
+![Dashboard](images/dashboard.png)  
 *Dashboard showing trading insights and performance metrics.*
 
 ![Backtesting Results](images/backtesting_results.png)
@@ -93,4 +94,3 @@ Below are some images showcasing the results and features of the project:
 
 ![Settings](images/settings.png)
 *Settings page for configuring trading preferences and risk management.*
-

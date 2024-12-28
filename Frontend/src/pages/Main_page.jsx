@@ -123,12 +123,12 @@ const Main_page = () => {
                         <div className="account-status">
                             <h3>Account Status</h3>
                             <div className="account-details">
-                                <p><strong>Initial Balance:</strong> ₹{responseData.initial_balance}</p>
-                                <p><strong>Final Balance:</strong> ₹{responseData.final_balance}</p>    
+                                <p><strong>Initial Balance:</strong> ${responseData.initial_balance}</p>
+                                <p><strong>Final Balance:</strong> ${responseData.final_balance}</p>
                                 <p>
                                     <strong>Trade P&L:</strong>
                                     <span className={responseData.total_profit < 0 ? 'negative' : 'positive'}>
-                                    ₹{responseData.total_profit}
+                                        ${responseData.total_profit}
                                         <span className={`triangle ${responseData.total_profit < 0 ? 'down-triangle' : 'up-triangle'}`}>
                                             {responseData.total_profit < 0 ? '▼' : '▲'}
                                         </span>
