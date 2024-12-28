@@ -4,7 +4,7 @@
 
 ## Overview  
 
-ChadStock is a cutting-edge platform that leverages **Reinforcement Learning (RL)** to develop predictive trading strategies. It integrates **sentiment analysis** for enhanced risk management, enabling traders to preemptively shut down trades during adverse market news, potentially saving significant capital. This feature is particularly useful in mitigating losses during market drawdowns, a period where most algorithms struggle to generate profits.  
+ChadStock is a stock analysis platform that leverages **Reinforcement Learning (RL)** to develop predictive trading strategies. It integrates **sentiment analysis** for enhanced risk management, enabling traders to preemptively shut down trades during adverse market news, potentially saving significant capital. This feature is particularly useful in mitigating losses during market drawdowns, a period where most algorithms struggle to generate profits.  
 
 The platform currently supports backtesting with the **PPO (Proximal Policy Optimization)** model and provides tools for customizing parameters like **slippage**, **trade commission**, and **starting amount**. ChadStock is designed to evolve with live trading capabilities, enhanced analytics, and the addition of advanced sentiment-based decision-making. 
 
