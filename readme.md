@@ -1,80 +1,104 @@
-### Backend
+Here's the updated README content with the clarified changes for the setup instructions and highlighting the use of React Vite for the frontend:
 
-The backend is built using Flask, ensuring scalability and robust performance. It handles data processing, model training, and API endpoints for the frontend to interact with. The project will be migrated to Django later.
+---
 
-- **Configuration Files:**
-    - `settings.py`: Django settings for configuring the project (to be used after migration).
-    - `urls.py`: URL routing for the Django application (to be used after migration).
+# Chad Stock - Deep Reinforcement Learning for Stock Trading Backtesting
 
-The steps to run it are simple:
+## Overview
 
-1. After cloning the repository, navigate to the `frontend` directory and use the following command:
+Chad Stock is an innovative backtesting and analytics platform designed to evaluate the performance of stock trading strategies using **Deep Reinforcement Learning (DRL)**. The application allows users to backtest stock trading strategies with customizable parameters, giving them the flexibility to adjust various settings such as **slippage, trade commission**, and **starting amount**. Unlike traditional backtesting systems that require predefined strategies, Chad Stock enables users to test models and observe how different parameters affect trading performance in real-time.
+
+This platform uses **ReactJS** with **Vite** for the frontend and **Flask** for the backend, providing a smooth and responsive user experience. The project is designed to be scalable, with plans to introduce additional features such as live trading, paper trading, and workspace configuration for model training.
+
+---
+
+## Current Features
+
+### 1. **Backtesting with Deep Reinforcement Learning (DRL)**
+   - The platform currently supports backtesting with the **Proximal Policy Optimization (PPO)** model, which has shown the best results for stock trading simulations.
+   - Users can select the stock, date range, and configure parameters to evaluate the performance of the PPO model.
+   - Key parameters for customization include **slippage**, **trade commission**, and **starting capital**.
+   - Upon submission, the platform instantly provides backtest results, including **portfolio value**, **profit percentage**, and a **detailed trade log**.
+
+### 2. **Customizable Parameters**
+   - Users can adjust essential backtesting parameters such as **slippage**, **trade commission**, and **starting amount**, making it adaptable to various trading strategies.
+
+### 3. **Trade Book and Portfolio Tracking**
+   - The platform displays a comprehensive **trade book**, allowing users to review each trade, including the time of execution and trade quantities. It also tracks the current portfolio value, profit, and trade history.
+
+---
+
+## Upcoming Features
+
+- **Live Trades (Paper Trading)**: Simulate real trades with real-time data, without financial risk.
+- **Model Customization and Training**: Configure and train supervised and reinforcement learning models.
+- **Workspace for Model Training**: Experiment with algorithms, train models, and run multiple backtests.
+- **Enhanced Analytics and Visualizations**: Advanced charts and insights for trading strategies.
+- **Additional DRL Models**: Support for **DDPG**, **A2C**, and **DQN** for a comprehensive trading analysis.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.x
+- Flask
+- ReactJS with Vite
+- Node.js
+- Docker (optional for environment setup)
+- Virtual Environment (for Python dependencies)
+
+### Installation Steps
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/chad-stock.git
+    cd chad-stock
+    ```
+
+2. Navigate to the `frontend` directory and install dependencies:
     ```sh
     npm i --legacy-peer-deps
     ```
-2. Next, run the command:
+
+3. Start the React frontend:
     ```sh
     npm run dev
     ```
-   As I am using React Vite for the frontend, after that, the link will appear:
+    A link will appear in the terminal:
     ```
     Local: http://localhost:5173/
     ```
-   Click on it to go to the dashboard.
+    Click on it to access the dashboard.
 
-3. Now, navigate to the `backend` folder and run:
+4. Navigate to the `backend` folder and install Python dependencies:
     ```sh
     pip install -r requirements.txt
     ```
-   to install all required libraries.
 
-4. Finally, run `api.py` in the `backend` folder. Now you can use the dashboard for backtesting.
+5. Start the Flask backend:
+    ```sh
+    python api.py
+    ```
 
-- **Dependencies:**
-    - Flask and related libraries for backend development.
-    - REST framework for building APIs.
-    - Celery for handling asynchronous tasks.
-    - Redis for caching and message brokering.
+You can now use the dashboard for backtesting.
 
-## Project Overview
-
-This project focuses on backtesting stock trading strategies using Reinforcement Learning (RL). Users can backtest stocks over any time range to evaluate their RL model performance. The project is ongoing and not yet completed.
-
-## Future Objectives
-
-The following features are planned for future development:
-- **Live Trading**: Implement live trading capabilities.
-- **Simulation**: Provide simulation environments for testing strategies.
-- **Forward Testing**: Enable forward testing to validate strategies in real-time.
-- **Custom Model Support**: Allow users to build and integrate their own models, including various types beyond RL, such as sentiment analysis.
-
-## Usage
-
-To use the project, follow these steps:
-
-1. **Home Page**: After starting the server, you’ll land on the home page. This page introduces you to the project and its features.
-
-2. **Navigation**: Use the navigation bar to switch between different pages, such as:
-    - **Dashboard**: Access the main dashboard for trading insights.
-    - **Settings**: Configure your trading preferences and risk management settings.
-    - **Reports**: View detailed reports on trading performance and backtesting results.
+---
 
 ## Contributing
 
-We welcome contributions to the project. Please follow these guidelines:
+Contributions are welcome! If you'd like to collaborate, improve the platform, or add features, feel free to open an issue or submit a pull request.
 
-1. Fork the repository.
-2. Create a new branch for your feature or bugfix.
-3. Commit your changes and push to your fork.
-4. Submit a pull request with a detailed description of your changes.
+---
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Acknowledgements
+---
 
-We would like to thank the open-source community for their valuable contributions and resources that made this project possible.
+This version includes your setup instructions for React Vite and provides users with a more streamlined guide for starting the project. Let me know if you'd like further refinements!
 
 ## Disclaimers
 
