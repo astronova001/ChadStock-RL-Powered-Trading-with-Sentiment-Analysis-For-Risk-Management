@@ -123,3 +123,5 @@ Below are some images showcasing the results and features of the project:
  <img src="https://github.com/astronova001/ChadStock-RL-Powered-Trading-with-Sentiment-Analysis-For-Risk-Management/blob/main/Results/Trade_details.png" width="400" />
 <img src="https://github.com/astronova001/RL-Based-Predictive-Trading-with-Sentiment-Risk-Management-and-Backtesting/blob/main/Results/Profit.png" width="400" /> 
 <img src="https://github.com/astronova001/RL-Based-Predictive-Trading-with-Sentiment-Risk-Management-and-Backtesting/blob/main/Results/Screenshot%202024-12-27%20113409.png" width="400" /> 
+
+---
